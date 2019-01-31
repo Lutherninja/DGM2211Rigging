@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: CRAPPYLUXO.ma
-//Last modified: Tue, Jan 29, 2019 03:36:56 PM
+//Last modified: Tue, Jan 29, 2019 03:46:44 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "2C716384-4142-C551-2DD9-288EF1614B7E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -4.0449790004735267 25.493126378777433 32.54646220771113 ;
-	setAttr ".r" -type "double3" -25.538352716869184 -2164.5999999996307 5.9828113904028358e-16 ;
+	setAttr ".t" -type "double3" -4.7404883221418359 15.638754332643021 22.744942536480309 ;
+	setAttr ".r" -type "double3" -8.7383527158116436 -2166.9999999987426 -1.0013875287421867e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "BAD0422A-4665-AA15-E509-61ADED147E6D";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 33.656470252039092;
+	setAttr ".coi" 23.485547419790507;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
