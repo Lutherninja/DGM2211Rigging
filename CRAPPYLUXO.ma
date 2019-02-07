@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: CRAPPYLUXO.ma
-//Last modified: Thu, Feb 07, 2019 03:54:12 PM
+//Last modified: Thu, Feb 07, 2019 04:00:25 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,7 +13,7 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "2C716384-4142-C551-2DD9-288EF1614B7E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -1.1213043532792355 17.298771309717498 34.904994728790051 ;
+	setAttr ".t" -type "double3" -1.1213043532792333 17.29877130971748 34.904994728789973 ;
 	setAttr ".r" -type "double3" -13.53835300614722 -1.8000000014394195 -1.4916210318736348e-16 ;
 	setAttr ".rp" -type "double3" -4.4408920985006262e-16 -7.1054273576010019e-15 1.1368683772161603e-13 ;
 	setAttr ".rpt" -type "double3" -3.9285615465979685e-15 -4.2896702151010418e-14 -1.1432017031989401e-14 ;
@@ -21,7 +21,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "BAD0422A-4665-AA15-E509-61ADED147E6D";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 29.670356802050978;
+	setAttr ".coi" 29.67035680205078;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
